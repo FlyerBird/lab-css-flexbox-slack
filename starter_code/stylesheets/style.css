@@ -5,3 +5,134 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+/******************MAIN CSS*******************/
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F4F3F4;
+    color: #5b5e6d;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/******************NAV BAR*******************/
+
+.topheader {
+
+    box-shadow: 0 4px 5px #5b5e6d;
+    position: sticky;
+    background-color: #F4F3F4
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: #F4F3F4;
+}
+
+.slack-logo {
+    display: flex;
+    align-self: center;
+    width: 106.25px;
+    height: 56.25px;
+    color: #5b5e6d;
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.menu li{
+    padding: 0 15px;
+   
+}
+
+.menu a {
+    color: #5b5e6d;
+    font-size: 16px;
+    line-height: 50px;
+    line-height: uppercase;
+    position: relative;
+
+}
+
+.open-menu,
+.close-menu {
+    display: none;
+}
+
+.cerrar {
+    width: 40px;
+    height: 40px;
+}
+
+.burger {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+@media (max-width:950px) {
+    .menu {
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: #5b5e6d;
+        height: 100%;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .menu li{
+        padding: 0;
+       
+    }
+    
+    .menu a {
+        color: #F4F3F4;
+        line-height: 60px;
+    }
+    
+     
+    .open-menu,
+    .close-menu {
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .close-menu{
+        align-self: flex-end;
+        padding: 20px;
+    }
+
+    .menu_opened {
+        opacity: 1;
+        pointer-events: all;
+    }
+}

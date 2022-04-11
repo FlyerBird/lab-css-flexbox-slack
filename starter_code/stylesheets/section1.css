@@ -1,0 +1,296 @@
+
+/*********SECTION 1***************/
+
+.section1 {
+    text-align: center;
+     background-color: white;
+}
+
+.section1-info {
+    margin-bottom: 25px;
+}
+
+.section1-title {
+    text-align: left;
+    padding: 10px;
+}
+
+.section1-p {
+   
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+}
+
+.button:hover {
+    filter: brightness(130%);
+}
+
+/*********SECTION 2***************/
+
+.section2 {
+    text-align: center;
+    background-color: white;
+}
+
+.section2-img {
+    height: 300px;
+    width: 336px;
+    
+}
+
+/*********MAIN**************/
+
+.main {
+    text-align: center;
+}
+
+.main-title {
+    background-color: #F4F3F4;
+}
+
+.main-btn {
+    background-color: rgb(255, 255, 254);
+    border: ;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: none;
+    color: blue;
+    cursor: pointer;
+    width: 80%;
+}
+
+.main-pictures {
+    text-align: center;
+}
+
+.airbnb-logo,
+.capital-one-logo,
+.harvard-one-logo,
+.losangeles-logo,
+.oracle-logo,
+.ticket-logo {
+    padding: 30px 60px;
+    width: 60%;
+}
+
+/*********FOOTER**************/
+
+.footer-div1 {
+    padding: 
+    text-align: center;
+    display: flex;
+    
+        
+}
+
+.footer1 {
+    list-style: none;
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.final {
+    background-color: grey;
+    color: rgb(39, 30, 30);
+
+}
+
+.last {
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.last-2 {
+    padding: 0px 60px;
+    
+    margin: 0 auto;
+}
+
+.ending {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ending-img,
+.span {
+    margin: 0 auto;
+}
+
+.ending-img {
+    height: 30px;
+    width: 30px;
+}
+
+.i {
+     text-align: center;
+}
+
+@media (min-width: 950px) {
+
+    /*********SECTION 1***************/
+
+.section1 {
+    text-align: center;
+     background-color: white;
+     display: flex;
+}
+
+.section1-info {
+    margin-bottom: 25px;
+}
+
+.section1-title {
+    text-align: left;
+    padding: 10px;
+}
+
+.section1-p {
+   
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+}
+
+.button:hover {
+    filter: brightness(130%);
+}
+
+/*********SECTION 2***************/
+
+.section2 {
+    text-align: center;
+    background-color: white;
+}
+
+.section2-img {
+    height: 300px;
+    width: 336px;
+    
+}
+
+/*********MAIN**************/
+
+.main {
+    text-align: center;
+}
+
+.main-title {
+    background-color: #F4F3F4;
+}
+
+.main-btn {
+    background-color: rgb(255, 255, 254);
+    border: ;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: none;
+    color: blue;
+    cursor: pointer;
+    width: 80%;
+}
+
+.main-pictures {
+    text-align: center;
+}
+
+.airbnb-logo,
+.capital-one-logo,
+.harvard-one-logo,
+.losangeles-logo,
+.oracle-logo,
+.ticket-logo {
+    padding: 30px 60px;
+    width: 60%;
+}
+
+/*********FOOTER**************/
+
+.footer-div1 {
+    padding: 
+    text-align: center;
+    display: flex;
+    
+        
+}
+
+.footer1 {
+    list-style: none;
+    padding: 20px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.final {
+    background-color: grey;
+    color: rgb(39, 30, 30);
+
+}
+
+.last {
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.last-2 {
+    padding: 0px 60px;
+    
+    margin: 0 auto;
+}
+
+.ending {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ending-img,
+.span {
+    margin: 0 auto;
+}
+
+.ending-img {
+    height: 30px;
+    width: 30px;
+}
+
+.i {
+     text-align: center;
+}
+
+
+}
